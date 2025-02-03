@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusiva Closet</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Adicionando Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Exclusiva Closet</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#novidades">Novidades</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="cart">
+      <a href="#"><img src="cart-icon.png" alt="Carrinho"></a>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section id="home">
+    <div class="carousel">
+      <div class="slide">
+        <img src="banner1.jpg" alt="Coleção Exclusiva">
+        <div class="caption">
+          <h2>Estilo que Reflete Sua Personalidade</h2>
+          <a href="#catalogo" class="btn">Confira Agora</a>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="banner2.jpg" alt="Novidades">
+        <div class="caption">
+          <h2>Novidades da Temporada</h2>
+          <a href="#novidades" class="btn">Ver Novidades</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo de Produtos -->
+  <section id="catalogo">
+    <h2>Catálogo de Produtos</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Vestido Floral</h3>
+        <p>R$ 199,99</p>
+        <button>Adicionar ao Carrinho</button>
+      </div>
+      <!-- Outros produtos -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Exclusiva Closet | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
